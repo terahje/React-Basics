@@ -1,0 +1,26 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #95dada;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out, font-family 0.25s ease-out, font-size 0.25s ease-out;
+}
+
+.card-container:hover {
+  transform: scale(1.02);
+}
+
+.card-container h2{
+  transition: font-family 0.25s ease, font-size 0.25s ease;
+}
+
+.card-container:hover h2{
+  font-family: 'Bigelow Rules', cursive;
+  font-size: 2.5rem;
+}
